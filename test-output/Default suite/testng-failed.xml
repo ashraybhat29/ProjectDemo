@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.realsteel.casestudy.testng.TestNG_Open_Cart_4_9_4">
+        <methods>
+          <include name="tc05_BrowseCategory"/>
+          <include name="tc007_EditAccountInfo"/>
+          <include name="tc004_OrderQuantity"/>
+          <include name="tc002_E2E"/>
+          <include name="tc008_SortByCombo"/>
+          <include name="precondition"/>
+          <include name="tc010_ChangeAddress"/>
+          <include name="tc003_RemoveProduct"/>
+          <include name="tc001_LoginLogout"/>
+          <include name="tc006_AdditionalImage"/>
+          <include name="tc009_ShoppingEmptyCart"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.realsteel.casestudy.testng.TestNG_Open_Cart_4_9_4 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

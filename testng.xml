@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.realsteel.casestudy.testng.TestNG_FW"/>
+      <class name="com.realsteel.casestudy.testng.TestNG_Open_Cart_5_1_2"/>
+      <class name="com.realsteel.casestudy.testng.TestNG_Open_Cart_4_9_4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
